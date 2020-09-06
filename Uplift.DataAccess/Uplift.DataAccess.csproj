@@ -11,4 +11,15 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Initializer\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uplift.Models\Uplift.Models.csproj" />
+    <ProjectReference Include="..\Uplift.Utility\Uplift.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
